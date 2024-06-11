@@ -1,0 +1,11 @@
+#Train
+max_epoch: 20
+n_hid: 256
+lr: 0.001
+milestones: [100]
+gamma: 0.9
+drop_out: 0.5
+print_freq: 1
+weight_decay: 0.0005
+decay_step: 200
+decay_rate: 0.7
